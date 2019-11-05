@@ -1,0 +1,154 @@
+/**
+ * Styles.css
+ * - Add any styles you want here!
+ */
+/* nav bar */
+
+* {
+
+    resize: none;
+    scroll-behavior: smooth;
+    outline: smooth;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Creepster', cursive;
+ font-size: 22px;
+
+}
+
+
+ul {
+  display: flex;
+  position: abolute;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #010101;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media all and (max-width: 500px) {
+  ul {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+li a {
+    text-transform: uppercase;
+    color: rgb(255, 175, 26);
+    line-height: 50px;
+    font-size: 1.70em;
+    padding: 23px;
+    text-align: center;
+}
+
+.left {
+ float:left; 
+}
+
+.login-res {
+    display: none
+}
+
+ a:hover {
+  background-color: rgb(75, 55, 85);
+}
+
+
+
+
+
+
+.logo h1:before {
+    content:'{'
+}
+
+.logo h1:after {
+    content: '}'
+}
+<div>
+.flex-container{
+    display: flex;
+  flex-flow: row wrap;
+  flex-box: center ,flex-start, flex-end, space-around ,space-between;
+
+}
+body {
+  Background-color: rgb(75, 55, 85);
+}
+.title {
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+  color: rgb(255, 178, 28);
+}
+.body {
+ Font:  1.25em Impact, Charcoal, sans-serif;
+ Color: rgb(255, 175, 26); 
+}
+.HauntedHollow {
+ Color: rgb(255, 175, 26); 
+  Font:  4em Impact, Charcoal, sans-serif;
+}
+
+
+.title {
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+  color: rgb(255, 178, 28);
+ 
+}
+.hollow{
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+  color: rgb(255, 178, 28);
+
+ }
+
+
+#Border
+
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
+}
+table tr:nth-child(even) {
+  background-color: grey;
+}
+table tr:nth-child(odd) {
+  background-color: grey;
+}
+table th {
+  color: white;
+  background-color: black;
+  
+  
+  
+  .mapouter{
+  position:relative;
+  text-align:center;
+  height:500px;
+  width:795px;
+  z-index:1;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:795px;
+  z-index:2;
+}
+
+ 
+
+
+
+
+
